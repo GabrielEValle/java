@@ -12,7 +12,7 @@ class DecHex{
 			h1 = (int)(d % 16);
 			//System.out.println(d +" = "+" h16 "+ h16 + " h1 "+h1);
 			//System.out.print(d+"= ");
-			System.out.println(hex[h16]+hex[h1]+":"+nibble[h16]+" "+nibble[h1]);
+			System.out.println(hex[h16]+hex[h1]);
 		}
 	}
 }
